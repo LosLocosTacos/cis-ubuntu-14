@@ -1,0 +1,5 @@
+# 12.10 Find SUID System Executables (Not Scored)
+allowed_suid_binaries: ["/bin/ping", "/bin/su", "/bin/mount", "/bin/fusermount", "/bin/umount", "/bin/ping6", "/usr/lib/eject/dmcrypt-get-device", "/usr/lib/openssh/ssh-keysign", "/usr/lib/landscape/apt-update", "/usr/lib/dbus-1.0/dbus-daemon-launch-helper", "/usr/lib/policykit-1/polkit-agent-helper-1", "/usr/sbin/uuidd", "/usr/sbin/pppd", "/usr/bin/pkexec", "/usr/bin/sudo", "/usr/bin/traceroute6.iputils", "/usr/bin/at", "/usr/bin/mtr", "/usr/bin/chfn", "/usr/bin/passwd", "/usr/bin/newgrp", "/usr/bin/gpasswd", "/usr/bin/chsh"]
+
+# 12.11 Find SGID System Executables (Not Scored)
+allowed_sgid_binaries: ["/sbin/unix_chkpwd", "/usr/sbin/uuidd", "/usr/sbin/postdrop", "/usr/sbin/postqueue", "/usr/bin/mlocate", "/usr/bin/chage", "/usr/bin/mail-unlock", "/usr/bin/at", "/usr/bin/expiry", "/usr/bin/dotlockfile", "/usr/bin/mail-lock", "/usr/bin/ssh-agent", "/usr/bin/wall", "/usr/bin/crontab", "/usr/bin/bsd-write", "/usr/bin/mail-touchlock", "/usr/bin/screen"]
