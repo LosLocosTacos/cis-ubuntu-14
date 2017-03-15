@@ -1,0 +1,19 @@
+{
+  "provisioners": [
+    {
+      "type": "ansible",
+      "playbook_file": "../cis-ubuntu-14-ansible/cis.yml"
+    }
+  ],
+
+  "builders": [
+    {
+      "type": "amazon-ebs",
+      "region": "us-west-2",
+      "source_ami": "ami-ad7df2cd",
+      "instance_type": "t1.micro",
+      "ssh_username": "ubuntu",
+      "ami_name": "cis-ubuntu-14.04 {{timestamp}}"
+    }
+  ]
+}
